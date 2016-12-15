@@ -1,0 +1,162 @@
+html {
+    background-color: rgb(35, 18, 167);
+    font-family: 'Vollkorn';
+    font-size: 15px;
+}
+
+html* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 18, 167);
+    padding: 5em;
+    color: white;
+    margin: 2em;
+    border: 10px solid white;
+    padding-top: 10em;
+}
+
+
+/*bandeaux fixes*/
+
+
+div.bandeauprenom {
+    position: fixed;
+    z-index: 2;
+    right: 10%;
+    top: 10%;
+    line-height: 1
+}
+
+div.projetfolie {
+    left: 30%;
+    top: 50%;
+}
+
+
+/*premiere page*/
+
+header {
+    margin-top: 7em;
+}
+
+.Header--title {
+    font-family: 'Anton';
+    font-size: 4.5em;
+    color: white;
+    text-align: right;
+}
+
+.ligne, .ligne2 {
+  border: 5px solid white;
+  padding:0 .5em;
+  line-height: 0px;
+}
+.ligne{
+  border-bottom: none;
+}
+.ligne2{
+  position: relative;
+  top:.5em;
+}
+
+
+/* general intérieur pages projets */
+
+.titre1 {
+    color: white;
+    text-align: center;
+    font-family: 'Anton';
+    font-style: 3em;
+    top: 80%;
+}
+
+.image1 {
+    max-width: 50%;
+    height: auto;
+    width: 50%;
+    margin: 1em auto;
+}
+
+.texteprojet {
+    color: white
+}
+
+h3 {
+    font-size: 1.2em
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+
+}
+
+.tas {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.tas--projet {
+    max-width: 50%;
+}
+
+.tas--projet img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cache {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    right: 10%;
+    top: 50%;
+    font-size: 2em;
+    color: white;
+}
+.cache h3{
+  margin-bottom: 0;
+}
+
+.cache1 {
+  display: none;
+  position: fixed;
+  font-size: 1.5em;
+  color: white;
+  text-align: right;
+margin-right: 1.5em;
+  margin-top: 2em;
+}
+
+.cache p{
+  margin-top:0;
+}
+.tas--projet a:hover .cache {
+    display: block;
+}
+
+header:hover .cache1
+{
+  display:block;
+}
+
+.colonnes {
+    display: flex;
+}
+
+.colonne.texte {
+    text-align: right;
+}
+
+.colonne.images {}

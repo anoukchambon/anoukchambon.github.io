@@ -1,4 +1,4 @@
-@media screen and (max-width:2000px) {
+@media screen and (min-width: 2000px) {
 p{
   max-width: 75ch;
 }
@@ -11,3 +11,63 @@ body{
   margin-right: auto;
 }
 */
+
+@media screen and (max-width: 700px){
+
+  body {
+    margin: .5em;
+    padding: .5em;
+    border:5px solid white;
+    padding-top: 2em;
+  }
+
+  .titre1 {
+    position: static;
+  }
+
+  .colonnes {
+    flex-direction: column-reverse;
+  }
+
+  .colonne.images .image1{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .texteprojet{
+    width: 100%;
+    position: static;
+  }
+
+  .bandeauprenom {
+    position: static;
+  }
+
+  .Header--title {
+    font-size: 1.5em;
+  }
+
+  .ligne, .ligne2 {
+   border:2.5px solid white;
+  }
+
+  .ligne2{
+    top:.6em;
+  }
+
+  .tas {
+    width: 100%;
+  }
+  .cache {
+    display: block;
+    position: static;
+  }
+  .tas--projet{
+    max-width: 100%;
+  }
+
+  .tas--projet a {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

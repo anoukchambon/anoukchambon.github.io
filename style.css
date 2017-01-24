@@ -89,7 +89,7 @@ div.texteprojet {
     max-width: 50%;
     height: auto;
     width: 50%;
-    margin: 1em auto;
+    margin: 0.2em auto;
 }
 
 .texteprojet {
@@ -101,8 +101,20 @@ h3 {
 }
 
 p {
-    font-size: 0.6em;
-    line-height: 1.3;
+    font-size: 0.5em;
+    line-height: 1.2;
+}
+
+p1 {
+  font-size: 0.9em;
+  line-height: 1.3;
+  max-width: 30%;
+}
+
+
+
+p3 {
+  text-align: center;
 }
 
 a {
